@@ -1,0 +1,124 @@
+.site-header{
+  background: #1a1a20;
+  position: fixed;
+  top: 0px;
+  display: block;
+  margin: 0 auto;
+  z-index: 1000;
+  width: 99%;
+  border-bottom: 1.5px solid #2f3f45;
+  padding: 10px;
+}
+
+/// *** LOGO THANGS *** ///
+
+#site-logo{
+  display: inline-block;
+  background: #1a1a20;
+  border: 1.5px solid #393942;
+  width: 80px;
+  height: 80px;
+  padding: 2px;
+  text-align: center;
+  transition: all .5s ease-out;
+    span{
+      display: block;
+      position: relative;
+      margin: 0 auto;
+      font-size: 3.75rem;
+      font-weight: 600;
+      letter-spacing: -10px;
+      color: #393942;
+    }
+    span:hover{
+      transition: .4s ease all;
+      letter-spacing: -11px;
+      // line-height: 90px;
+      font-weight: 700;
+      color: #c1c1c1;
+    }
+    
+}
+#site-logo:hover{
+  transition: .5s ease all;        
+  border-top: 1.5px solid #38aa86;
+  border-right: 1.5px solid #BF3537;
+  border-bottom: 1.5px solid #DB9825;
+  border-left: 1.5px solid #3a6edc;
+  background: linear-gradient(left, #44444f, #29292f );
+  
+}
+
+/// *** NAV THANGS *** ///
+
+.site-nav{
+  padding: 12px;
+  padding-right: 25px;
+  position: relative;
+  margin: 0 auto;
+  float: right;
+  
+.nav-link{
+  transition: all .4s ease-out;
+}
+
+    ul{
+      position: relative;
+      width: auto;
+      height: 30px;
+      margin: 10px auto;
+      top: 25px;
+      padding: 4px 2px;
+    }
+  
+    ul li{
+        display: inline-block;
+        padding: 6px;
+        height: 12px;
+    }
+        a{
+          color: #393942;
+          text-decoration: none;
+          font-weight: 700;
+          font-size: 1rem;
+          letter-spacing: -1px;
+          // margin: 4px;
+          border: 1px solid #1a1a20;
+          
+        }
+
+        .nav-link:hover{          
+          transition: .4s ease all;        
+          // margin: 4px;
+        }
+}
+
+#home-link:hover{
+  color: #c1c1c1;
+  border-bottom: 1px solid #38aa86;
+  border-right: 1px solid #38aa86;
+}
+
+#about-link:hover{  
+  color: #c1c1c1;
+  border-right: 1px solid #DB9825;
+  border-bottom: 1px solid #DB9825;
+}
+
+#project-link:hover{
+  color: #c1c1c1;
+  border-right: 1px solid #3a6edc;
+  border-bottom: 1px solid #3a6edc;
+}
+#contact-link:hover {
+  color: #c1c1c1;
+  border-right: 1px solid #BF3537;
+  border-bottom: 1px solid #BF3537;
+}
+
+@media screen and (max-width: 476px){
+  .site-nav{
+    display: none;
+  }
+ }
+

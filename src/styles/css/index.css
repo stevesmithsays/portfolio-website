@@ -1,0 +1,166 @@
+body {
+  background: lightgrey;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.hero-container {
+  display: block;
+  background-image: url("../../assets/images/_DSF8179.jpg");
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  z-index: 1000; }
+
+.hero {
+  background: linear-gradient(#fa446234, #ffff0048);
+  display: block;
+  position: relative;
+  padding: 4px;
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 700; }
+  .hero p {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 45%;
+    font-weight: 600;
+    font-size: 2rem; }
+
+.site-header {
+  background: #1a1a20;
+  position: fixed;
+  top: 0px;
+  display: block;
+  margin: 0 auto;
+  z-index: 1000;
+  width: 99%;
+  border-bottom: 1.5px solid #2f3f45;
+  padding: 10px; }
+
+#site-logo {
+  display: inline-block;
+  background: #1a1a20;
+  border: 1.5px solid #393942;
+  width: 80px;
+  height: 80px;
+  padding: 2px;
+  text-align: center;
+  transition: all .5s ease-out; }
+  #site-logo span {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    font-size: 3.75rem;
+    font-weight: 600;
+    letter-spacing: -10px;
+    color: #393942; }
+  #site-logo span:hover {
+    transition: .4s ease all;
+    letter-spacing: -11px;
+    font-weight: 700;
+    color: #c1c1c1; }
+
+#site-logo:hover {
+  transition: .5s ease all;
+  border-top: 1.5px solid #38aa86;
+  border-right: 1.5px solid #BF3537;
+  border-bottom: 1.5px solid #DB9825;
+  border-left: 1.5px solid #3a6edc;
+  background: linear-gradient(left, #44444f, #29292f); }
+
+.site-nav {
+  padding: 12px;
+  padding-right: 25px;
+  position: relative;
+  margin: 0 auto;
+  float: right; }
+  .site-nav .nav-link {
+    transition: all .4s ease-out; }
+  .site-nav ul {
+    position: relative;
+    width: auto;
+    height: 30px;
+    margin: 10px auto;
+    top: 25px;
+    padding: 4px 2px; }
+  .site-nav ul li {
+    display: inline-block;
+    padding: 6px;
+    height: 12px; }
+  .site-nav a {
+    color: #393942;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -1px;
+    border: 1px solid #1a1a20; }
+  .site-nav .nav-link:hover {
+    transition: .4s ease all; }
+
+#home-link:hover {
+  color: #c1c1c1;
+  border-bottom: 1px solid #38aa86;
+  border-right: 1px solid #38aa86; }
+
+#about-link:hover {
+  color: #c1c1c1;
+  border-right: 1px solid #DB9825;
+  border-bottom: 1px solid #DB9825; }
+
+#project-link:hover {
+  color: #c1c1c1;
+  border-right: 1px solid #3a6edc;
+  border-bottom: 1px solid #3a6edc; }
+
+#contact-link:hover {
+  color: #c1c1c1;
+  border-right: 1px solid #BF3537;
+  border-bottom: 1px solid #BF3537; }
+
+@media screen and (max-width: 476px) {
+  .site-nav {
+    display: none; } }
+.hero-body {
+  background-image: url("../../assets/images/andrej-lisakov-568525-unsplash.jpg");
+  background-size: cover;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  max-width: 100%;
+  height: 500px;
+  overflow: auto;
+  word-wrap: break-word;
+  text-align: center;
+  border-bottom: 2px solid black; }
+
+h1 {
+  display: block;
+  position: relative;
+  line-height: 135px;
+  letter-spacing: -8px;
+  top: 100px;
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  font-size: 7.5rem;
+  color: #0000004e;
+  outline: 5px solid #00000002;
+  transition: all .8s ease-out; }
+
+h1:hover {
+  transition: all .8s ease-out;
+  letter-spacing: -10px;
+  font-size: 7.6rem;
+  color: black;
+  outline: 5px solid rgba(0, 0, 0, 0.668); }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,32 @@
+.hero-container{
+  display:block;
+  background-image: url('../../assets/images/_DSF8179.jpg');
+  background-size: cover; 
+  height:700px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.hero{
+  background: linear-gradient(#fa446234, #ffff0048);
+  display: block;
+  position: relative;
+  padding: 4px;
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 700;
+
+  p{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 45%;
+    font-weight: 600;
+    font-size: 2rem;
+
+  }
+}
+
+
