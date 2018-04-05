@@ -1,8 +1,10 @@
 .hero-body {
+  display: block;
+  position: relative;
   background-image: url("../../assets/images/andrej-lisakov-568525-unsplash.jpg");
   background-size: cover;
-  position: relative;
-  display: block;
+  background-attachment: scroll;
+  background-position: center;
   margin: 0 auto;
   margin-top: 20px;
   padding: 20px;
@@ -26,14 +28,20 @@ h1 {
   margin-top: 3rem;
   font-size: 7.5rem;
   color: #0000004e;
+  filter: blur(8px);
   outline: 5px solid #00000002;
-  transition: all .8s ease-out; }
+  transition: all .3s ease-out; }
+
+.hero-btn {
+  text-decoration: none; }
 
 h1:hover {
-  transition: all .8s ease-out;
+  transition: all .4s ease-out;
   letter-spacing: -10px;
+  filter: blur(0px);
   font-size: 7.6rem;
   color: black;
+  text-shadow: 6px 9px 1px #212c5754;
   outline: 5px solid rgba(0, 0, 0, 0.668); }
 
 /*# sourceMappingURL=Hero.css.map */

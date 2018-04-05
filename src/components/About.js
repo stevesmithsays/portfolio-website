@@ -4,12 +4,13 @@ import React from "react";
 const About = () => {
     return(
       <div>
-        <div className="hero-container">
-            <div className="hero">
-              <div classNAme="hero-p">
-                <p>My name is Steve Smith, and I am a front-end web developer located in Chicago, Illinois.</p>
-                <p>While my name is incredibly common, I am always looking for opportunities and projects that are anything but ordinary!</p>
-                <p>Feel free to contact me <a href="#">here!</a></p>
+        <div id="about-body">
+            <div className="about-container">
+              <div className="about-blurb">
+                <span className="about-statement" id="about-name">My name is Steve Smith.</span> 
+                <span className="about-statement" id="about-traits">I am a front-end web developer.</span>                
+                <span className="about-statement" id="about-location">Currently I am located in Chicago, IL.(not in this photo)</span> 
+                <span className="about-statement" id="about-contact">Feel free to contact me<a href="#" id="about-here">here!</a></span>
               </div>  
           </div>
         </div>

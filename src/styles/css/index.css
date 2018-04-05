@@ -5,17 +5,17 @@ body {
   margin: 0;
   padding: 0; }
 
-.hero-container {
+#about-body {
   display: block;
-  background-image: url("../../assets/images/_DSF8179.jpg");
   background-size: cover;
   height: 700px;
   width: 100%;
   z-index: 1000; }
 
-.hero {
-  background: linear-gradient(#fa446234, #ffff0048);
+.about-container {
   display: block;
+  background-size: cover;
+  background-image: url("../../assets/images/_DSF8179.jpg");
   position: relative;
   padding: 4px;
   width: 100%;
@@ -23,13 +23,75 @@ body {
   margin: 0 auto;
   text-align: left;
   font-weight: 700; }
-  .hero p {
-    display: block;
+  .about-container .about-statement {
+    display: hidden;
     position: relative;
-    margin: 0 auto;
     width: 45%;
-    font-weight: 600;
-    font-size: 2rem; }
+    margin: 0 auto;
+    color: #1a1a2018;
+    filter: blur(10px);
+    float: left;
+    transition: 0.4s ease all; }
+  .about-container span:hover {
+    transition: .8s ease all;
+    filter: blur(0px); }
+
+#about-name {
+  font-size: 4.8rem; }
+
+#about-name:hover {
+  font-size: 4.9rem;
+  letter-spacing: -5px;
+  text-shadow: -9px -9px 0px #000000;
+  color: #c48a27; }
+
+#about-traits {
+  font-size: 3.9rem; }
+
+#about-traits:hover {
+  font-size: 4.1rem;
+  letter-spacing: -5px;
+  text-shadow: 6px -5px 0px #000000c9;
+  color: #2f680e; }
+
+#about-location {
+  font-size: 2.9rem;
+  letter-spacing: -3px; }
+
+#about-location:hover {
+  font-size: 3rem;
+  letter-spacing: -4px;
+  text-shadow: 7px 5px 0px #000000;
+  color: #df5329; }
+
+#about-contact {
+  display: block;
+  position: relative;
+  padding: 6px;
+  font-size: 2.5rem;
+  color: #df54290a; }
+
+#about-contact:hover {
+  font-size: 2.9rem;
+  letter-spacing: -2px;
+  text-shadow: -3px 4px 0px #000000;
+  padding: 8px;
+  background-color: #ff5e2dbb;
+  color: #f2f5ff; }
+
+#about-here {
+  font-size: 3rem;
+  letter-spacing: -2px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0);
+  transition: .3s ease-in-out; }
+
+#about-here:hover {
+  display: block;
+  transition: .4s ease all;
+  font-size: 3.1rem;
+  color: #ffeaed;
+  letter-spacing: -3px; }
 
 .site-header {
   background: #1a1a20;
@@ -126,10 +188,12 @@ body {
   .site-nav {
     display: none; } }
 .hero-body {
+  display: block;
+  position: relative;
   background-image: url("../../assets/images/andrej-lisakov-568525-unsplash.jpg");
   background-size: cover;
-  position: relative;
-  display: block;
+  background-attachment: scroll;
+  background-position: center;
   margin: 0 auto;
   margin-top: 20px;
   padding: 20px;
@@ -153,14 +217,20 @@ h1 {
   margin-top: 3rem;
   font-size: 7.5rem;
   color: #0000004e;
+  filter: blur(8px);
   outline: 5px solid #00000002;
-  transition: all .8s ease-out; }
+  transition: all .3s ease-out; }
+
+.hero-btn {
+  text-decoration: none; }
 
 h1:hover {
-  transition: all .8s ease-out;
+  transition: all .4s ease-out;
   letter-spacing: -10px;
+  filter: blur(0px);
   font-size: 7.6rem;
   color: black;
+  text-shadow: 6px 9px 1px #212c5754;
   outline: 5px solid rgba(0, 0, 0, 0.668); }
 
 /*# sourceMappingURL=index.css.map */
