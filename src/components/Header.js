@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import "../styles/scss/Header.scss";
+import Hero from "./Hero";
 
 class Header extends Component {
   render(){
@@ -11,10 +13,10 @@ class Header extends Component {
             </div></a>
           <nav className="site-nav">
             <ul>
-              <a href="Home" className="nav-link" id="home-link"><li>Home.</li></a>
-              <a href="Projects" className="nav-link" id="project-link"><li>Projects.</li></a>
-              <a href="Blog" className="nav-link" id="about-link"><li>Blog.</li></a>
-              <a href="Contact" className="nav-link" id="contact-link"><li>Contact.</li></a>
+              <Link to="/" className="nav-link" id="home-link"><li>Home.</li></Link>
+              <Link to="Projects" className="nav-link" id="project-link"><li>Projects.</li></Link>
+              <Link to="Blog" className="nav-link" id="about-link"><li>Blog.</li></Link>
+              <Link to="Contact" className="nav-link" id="contact-link"><li>Contact.</li></Link>
             </ul>
           </nav>
         </div>

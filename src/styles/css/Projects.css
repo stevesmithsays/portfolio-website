@@ -1,0 +1,49 @@
+.projects-body {
+  display: block;
+  position: relative;
+  height: 900px;
+  background: #35242b; }
+
+#project-hwun {
+  display: block;
+  position: relative;
+  color: #add8e63f;
+  letter-spacing: -11px;
+  font-size: 7rem;
+  transition: .4s ease all; }
+
+#project-hwun:hover {
+  transition: .4s ease all;
+  color: #35c7f862; }
+
+.projects-blurb {
+  display: block;
+  position: relative;
+  background: #ff560785;
+  margin: 0 auto;
+  top: -90px;
+  padding: 12px;
+  width: 45%;
+  height: 320px;
+  letter-spacing: -10px;
+  text-align: left;
+  border-radius: 20px;
+  color: #f8ad22a4;
+  font-weight: 700; }
+  .projects-blurb span {
+    display: block;
+    font-size: 4.5rem;
+    position: relative;
+    margin: 0 auto;
+    transition: .4s ease all; }
+
+.project-blurb:hover {
+  box-shadow: 10px 10px 4px #1d1417fa; }
+
+.projects-blurb span:hover {
+  transition: .4s ease all;
+  font-size: 4.56rem;
+  letter-spacing: -8px;
+  text-shadow: -12px 14px 8px #4e2605c0; }
+
+/*# sourceMappingURL=Projects.css.map */

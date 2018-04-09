@@ -1,0 +1,20 @@
+.contact-body {
+  display: block;
+  position: relative;
+  height: 900px; }
+
+.contact-container {
+  display: block;
+  height: 800px;
+  position: relative;
+  background: #1e3b1e; }
+
+#contact-hwun {
+  display: block;
+  position: relative;
+  top: 100px;
+  background: grey;
+  font-size: 5rem;
+  color: #cf8701; }
+
+/*# sourceMappingURL=Contact.css.map */

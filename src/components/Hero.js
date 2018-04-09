@@ -5,7 +5,7 @@ const Hero = () => {
   return(
     <div>
       <div className="hero-body">
-        <a href="#about-container" className="hero-btn"><h1>Hello There.</h1></a>
+        <a href="#about-container" className="hero-btn"><h1 className="hello-header">Hello There.</h1></a>
         </div>
     </div>
   )  

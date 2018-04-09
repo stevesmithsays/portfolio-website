@@ -10,14 +10,15 @@
   padding: 20px;
   max-width: 100%;
   // min-width: 400px;
-  height: 500px;
+  height:650px;
+  max-height: 700px;
   overflow: auto;
   word-wrap: break-word;
   text-align: center;
   border-bottom: 2px solid black;
 }
 
-h1{
+.hello-header{
   display: block;
   position: relative;
   line-height: 135px;
@@ -30,7 +31,7 @@ h1{
   margin-top: 3rem;
   font-size: 7.5rem;
   color: #0000004e;
-  filter: blur(8px);
+  filter: blur(20px);
   outline: 5px solid #00000002;
   transition: all .3s ease-out;
 }
@@ -39,15 +40,15 @@ h1{
   text-decoration: none;
 }
 
-h1:hover{
+.hello-header:hover{
   // background: #97aef6a5;
   transition: all .4s ease-out;
   letter-spacing: -10px;
   filter: blur(0px);
   font-size: 7.6rem;
   color: black;
-  text-shadow: 6px 9px 1px #212c5754;
-  outline: 5px solid rgba(0, 0, 0, 0.668);
+  text-shadow: 3px 5px 3px #212c5754;
+  outline: 5px solid #000000aa;
 }
 
 
