@@ -14,9 +14,9 @@ const About = () => {
                   <div id="icon-container">
                     <i class="icon-html5-alt"></i> 
                     <i class="icon-css3"></i>
-                    <i class="icon-sass"></i>
                     <i class="icon-javascript-alt"></i>             
                     <i class="icon-reactjs"></i>
+                    <i class="icon-sass"></i>
                     <i class="icon-nodejs"></i>
                     <i class="icon-postgres"></i>   
                     <i class="icon-git"></i>                      

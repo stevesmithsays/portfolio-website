@@ -113,6 +113,7 @@
 #about-skills{
   font-size: 2.25rem;
   letter-spacing:-3px;
+  text-align: center;
   width: 60%;
   overflow: auto;
 
@@ -121,9 +122,11 @@
     position: relative;
     color:#0000008a;
     margin: 2px 2px;
-    padding: 1px 8px;
+    padding: 2px;
+    padding-left: 4px;
     font-size: 2.45rem;
-    text-align: center;
+    width: 3rem;
+    height: 3rem;
     border-radius: 5px;
     // background: #ffffffad;
     transition: .2s ease all;
@@ -131,10 +134,12 @@
 
   i:hover{
     transition: .2s ease all;
-    color:#000000ad;
-    background: #ffffffad;    
+    background:#0000008a;
+    color: #ffffffad;  
   }
 }
+
+
 
 #icon-container{
   display: block;
