@@ -7,9 +7,19 @@ const Projects = () => {
         <div className="header-container">
           <h1 id="project-hwun">projects</h1>
         </div>
-        <div className="projects-blurb">
-          <span>Working on this and that.</span>
-        </div>
+          <div className="blurb-hlder">      
+            <div id="first-blurb">
+             <a href ="https://github.com/stevesmithsays/No-DB-Project"> <span>Seinfeld</span></a>            
+            </div>                          
+              <div id="second-blurb">
+                <a href="http://www.mountatlas.club"><span>Mount<br/>Atlas.</span></a>
+              </div>                    
+              <div id="third-blurb">
+                <span><i><a href="/">This</a></i> and that.</span>      
+              </div>
+              <span className="projects">gander.</span>
+          </div>  
+          
       </div>
     </div>
   )

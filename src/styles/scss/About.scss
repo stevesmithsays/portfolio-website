@@ -15,11 +15,14 @@
   display: block;
   background-size: cover; 
   position: relative;
-  background: #e53f0c61;
-  outline: 1px solid #0000005b;
+  background: #d8ffdf23;
+  // background: #e53f0c61;
+  border: 4px solid #ffffff5b;
+  border-radius: 5px;
   margin: 0 auto;
   padding:20px;
-  width: 60%;
+  width: 50%;
+  max-width: 600px;
   height: 400px;
   overflow: scroll;
   text-align: left;
@@ -35,6 +38,7 @@
     height:250px;
     width: 55%;
     min-width:35%;
+    border-radius: 12px;
     background: #0000005a;
     color: #ffffff00;
     filter:blur(15px);
@@ -51,25 +55,23 @@
 
 .about-container:hover{
   transition: .3s ease all;
-  outline: 2px solid #ffffff5b;
-  background: #008b8b61;
+  border: 4px solid #ffffff5b;
+  // background: #008b8b61;
+  background: #e53f0c61;
 }
-
-
 
 .about-me{
   display:block;
   position: relative;
   margin: 0 auto;
   padding: 6px;
-  width: 54%;
+  width: 41%;
   height: 180px;
   top:20px;
   text-align: center;
   line-height:260px;
   font-size: 7.5rem;
-  letter-spacing:-10px;
-  // border-bottom: 20px solid #008b8b61;
+  letter-spacing: -12px;
   border-bottom: 20px solid #b2b2b200;
   font-weight:800;
   color: #00000049;
@@ -78,10 +80,7 @@
 
 .about-me:hover{
   transition: .5s ease all;
-  letter-spacing: -10.5px;
   border-bottom: 20px solid #000000ad;
-  // border-bottom: 20px solid #e53f0c61;
-  // background: #ffffff94;
   color: #000000ad;
 }
 
@@ -92,10 +91,6 @@
   font-size: 3rem;
 }
 
-#about-name:hover{
-// background: #ffffffad;
-// color: #000000ad; 
-}
 
 //*** TRAITS ***//
 
@@ -104,10 +99,6 @@
   letter-spacing: -5px;
 }
 
-#about-traits:hover{
-  // background: #ffffffad;
-  // color: #000000ad;
-}
 
 //*** LOCATION ***//
 
@@ -115,10 +106,43 @@
   font-size: 2.25rem;
   letter-spacing:-3px;
 }
-#about-location:hover{
-  // background: #ffffffad;
-  // color: #000000ad;
+
+
+// *** SKILLS *** //
+
+#about-skills{
+  font-size: 2.25rem;
+  letter-spacing:-3px;
+  width: 60%;
+  overflow: auto;
+
+  i{
+    display: inline-block;
+    position: relative;
+    color:#0000008a;
+    margin: 2px 2px;
+    padding: 1px 8px;
+    font-size: 2.45rem;
+    text-align: center;
+    border-radius: 5px;
+    // background: #ffffffad;
+    transition: .2s ease all;
+  }
+
+  i:hover{
+    transition: .2s ease all;
+    color:#000000ad;
+    background: #ffffffad;    
+  }
 }
+
+#icon-container{
+  display: block;
+  position: relative;
+  padding-left: 8%;
+  align-content: center;
+}
+
 
 //*** CONTACT ***//
 
@@ -129,21 +153,21 @@
 }
 
 #about-contact:hover{
-  background-color:#fb6537be;
-  color: #f2f5ff;
-  text-shadow: -1px 2px 0px #000000;
+  background: #ffffffad;
+  color: #000000ad;
 }
 //*** 'HERE' ***//
 
 #about-here{
   font-size: 2.5rem;  
-  transition: .3s ease-in-out;
   text-decoration: none;
   color: #ffffff00;
+  border-bottom: 3px solid #00000000;
+  text-shadow: -1px 2px 0px #000000ad;
   letter-spacing:-3px;
+  transition: .4s ease-in-out;
 }
 #about-here:hover{
-  transition: .3s ease all;
-  color: #ffeaed;
-  // text-shadow: -4px 5px 0px #000000;
+  transition: .4s ease all;
+  border-bottom: 3px solid #000000ad;
 }

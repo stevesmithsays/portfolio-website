@@ -8,7 +8,14 @@
   width: 99%;
   border-bottom: 1.5px solid #2f3f45;
   padding: 10px;
+  transition: .2s ease all;
 }
+
+.site-header:hover{
+  transition: .2s ease all;
+  border-bottom: 1.5px solid #af7c1d;
+}
+
 
 /// *** LOGO THANGS *** ///
 
@@ -33,9 +40,8 @@
     span:hover{
       transition: .4s ease all;
       letter-spacing: -11px;
-      // line-height: 90px;
       font-weight: 700;
-      color: #c1c1c1;
+      color: #c1c1c1;  
     }
     
 }
@@ -60,6 +66,7 @@
   
 .nav-link{
   transition: all .4s ease-out;
+  border-radius: 5px;
 }
 
     ul{
@@ -82,14 +89,12 @@
           font-weight: 700;
           font-size: 1rem;
           letter-spacing: -1px;
-          // margin: 4px;
           border: 1px solid #1a1a20;
           
         }
 
         .nav-link:hover{          
-          transition: .4s ease all;        
-          // margin: 4px;
+          transition: .4s ease all;           
         }
 }
 
