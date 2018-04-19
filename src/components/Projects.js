@@ -6,6 +6,7 @@ const Projects = () => {
       <div className="projects-body">
         <div className="header-container">
           <h1 id="project-hwun">projects</h1>
+          <h2 id="proj-header-blurb">These are some of my most recent pieces of work.</h2>
         </div>
           <div className="blurb-hlder">      
             <div id="first-blurb">

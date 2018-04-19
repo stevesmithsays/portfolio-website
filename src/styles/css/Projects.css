@@ -41,6 +41,25 @@ a:after {
   color: #35c7f862;
   text-shadow: -1px 1px 15px #35c7f862; }
 
+#proj-header-blurb {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 25%;
+  bottom: 11rem;
+  font-size: 2.25rem;
+  text-align: left;
+  line-height: 35px;
+  letter-spacing: -5px;
+  font-weight: 800;
+  color: #35242b;
+  transition: .2s ease all; }
+
+#proj-header-blurb:hover {
+  transition: .2s ease all;
+  color: #35c7f862;
+  text-shadow: -2px 2px 30px #35c7f862; }
+
 .blurb-hlder {
   background: #d3d3d30c;
   display: block;
